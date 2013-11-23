@@ -1,0 +1,17 @@
+apply plugin: 'android-library'
+
+dependencies {
+  compile 'com.android.support:support-v4:18.0.+'
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '19'
+
+    sourceSets {
+        instrumentTest {
+            java.srcDir file('src/tests/java')
+            resources.srcDir file('src/tests/resources')
+        }
+    }
+}
