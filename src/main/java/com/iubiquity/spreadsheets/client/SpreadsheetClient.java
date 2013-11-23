@@ -1,8 +1,5 @@
 package com.iubiquity.spreadsheets.client;
 
-import java.io.IOException;
-import java.util.List;
-
 import com.google.api.client.http.GenericUrl;
 import com.google.api.client.http.HttpRequest;
 import com.google.api.client.http.HttpRequestFactory;
@@ -21,6 +18,9 @@ import com.iubiquity.spreadsheets.model.SpreadsheetUrl;
 import com.iubiquity.spreadsheets.model.WorksheetData;
 import com.iubiquity.spreadsheets.model.WorksheetEntry;
 import com.iubiquity.spreadsheets.model.WorksheetFeed;
+
+import java.io.IOException;
+import java.util.List;
 
 abstract public class SpreadsheetClient {
 

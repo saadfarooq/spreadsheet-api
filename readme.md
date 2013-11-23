@@ -1,4 +1,4 @@
-#Google Spreadsheet API Model for Java and Android
+# Google Spreadsheet API Model for Java and Android
 
 This api can be used to access the Google spreadsheet API with Android or Java clients. This is the core api which contains the AtomPub model objects as well as the client code. This api is using the newer [Google API Java Client](http://code.google.com/p/google-api-java-client/).
 
